@@ -131,6 +131,9 @@
                                 Message:
                                 <br />
                                 <asp:DropDownList ID="message" class="form-control" runat="server" name="message">
+                                    <asp:ListItem Selected="True" Value="White"> White </asp:ListItem>
+                                      <asp:ListItem Value="Silver"> Silver </asp:ListItem>
+                                      <asp:ListItem Value="DarkGray"> Dark Gray </asp:ListItem>
                                 </asp:DropDownList>
                             </label>
                             <br />
